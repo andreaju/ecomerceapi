@@ -7,8 +7,8 @@ const rotaUsuarios = require('./routes/usuarios')
 
 const bodyParser = require('body-parser')
 
-app.use(bodyParser.urlencoded({ extended: false })) // apenas dados simples
-app.use(bodyParser.json()) // apenas formato json de entrada no body
+app.use(bodyParser.urlencoded({ extended: false })) // apenas dados simples asdasd
+app.use(bodyParser.json()) // apenas formato json de entrada no body asdad
 
 app.use((req, res, next)=>{
     res.header('Access-Control-Allow-Origin','*')
